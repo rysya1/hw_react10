@@ -1,0 +1,32 @@
+.cont {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.obj{
+  background-color: #bdd4e7;
+  background-image: linear-gradient(315deg, #bdd4e7 0%, #8693ab 74%);
+  width: 168px;
+  height: 305px;
+  margin-top: 10px;
+  margin-left: 130px;
+  margin-bottom: 10px;
+}
+.flex{
+  display: flex;
+  justify-content: space-around;
+}
+.txt{
+  border: 2px solid #fc575e;
+  width: 100px;
+  height: 100px;
+}
+img{
+  padding-left: 9px;
+}
+.id{
+  display: flex;
+  justify-content: center;
+  border: 2px solid #fc575e;
+  width: 30px;
+  height: 30px;
+}
